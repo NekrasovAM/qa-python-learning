@@ -1,9 +1,15 @@
+"""
+Программа для подсчёта хз чего, каких-то рандомных цифр
+"""
 def calculate_average(nums):
+    '''
+    Считаем копейки
+    '''
     total = sum(nums)
-    count = len(numbers)
+    count = len(nums)
     average = total / count
+    return average
 
-
-nums = [10, 15, 20]
-result = calculat_average(nums)
+NUMS = [10, 15, 20]
+result = calculate_average(NUMS)
 print("The average is:", result)
